@@ -159,4 +159,14 @@ public class UserVmVO extends VMInstanceVO implements UserVm {
     public String getName() {
         return instanceName;
     }
+
+    @Override
+    public String getUserDataDetails() {
+        return userDataDetails;
+    }
+
+    @Override
+    public void setUserDataDetails(String userDataDetails) {
+        this.userDataDetails = userDataDetails;
+    }
 }
